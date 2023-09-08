@@ -65,12 +65,12 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="">
+                <div class="mr-2 lg:mr-0">
                     <a class="btn btn-outline btn-secondary text-white">lOGIN</a>
                 </div>
             </div>
         </nav>
-          <!-- Warning part -->
+        <!-- Warning part -->
         <div class="alert alert-warning mt-7 mb-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
                 viewBox="0 0 24 24">
@@ -384,7 +384,44 @@
                             </div>
                             <div
                                 class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Login Form -->
+        <section class="my-24">
+            <div class="hero">
+                <div class="hero-content flex-col gap-20 lg:flex-row-reverse">
+                    <div class="text-center lg:text-left">
+                        <h1 class="text-5xl font-bold">Login now!</h1>
+                        <p class="py-6">Provident cupiditate voluptatem <br> 
+                            et in. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                    </div>
+                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl shadow-indigo-500/50">
+                        <div class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Email</span>
+                                </label>
+                                <input type="text" placeholder="email" class="input input-bordered" />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Password</span>
+                                </label>
+                                <input type="text" placeholder="password" class="input input-bordered" />
+                                <label class="label">
+                                    <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                </label>
+                            </div>
+                            <div class="form-control mt-6">
+                                <button class="btn btn-primary">Login</button>
                             </div>
                         </div>
                     </div>
@@ -392,7 +429,8 @@
             </div>
         </section>
     </main>
-    <footer class="footer justify-center md:justify-between md:px-10 py-14 px-5 lg:px-40 bg-[#0B0D17] lg:justify-between">
+    <footer
+        class="footer justify-center md:justify-between md:px-10 py-14 px-5 lg:px-40 bg-[#0B0D17] lg:justify-between">
         <div class="space-y-3">
             <nav class="grid grid-flow-col gap-6 text-[#FFF]">
                 <a class="link link-hover">Download Now</a>
@@ -416,6 +454,15 @@
             </div>
         </nav>
     </footer>
+    <div class="flex justify-end mt-8 mb-5 gap-2 mr-3">
+        <button class="btn btn-primary">One</button>
+        <button class="btn btn-secondary">Two</button>
+        <button class="btn btn-accent btn-outline">Three</button>
+        <button class="btn">
+            <span class="loading text-warning"></span>
+            loading
+        </button>
+    </div>
     <progress class="progress"></progress>
 </body>
 
